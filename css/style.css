@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #353749;
+  background-color: #4d538d;
 }
 
 img {
@@ -18,7 +18,7 @@ img {
 .container {
   width: 400px;
   height: 100vh;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .ticket {
@@ -78,7 +78,7 @@ img {
 
 .codigo-de-barras::before {
   content: "";
-  background-color: #353749;
+  background-color: #4d538d;
   display: block;
   width: 40px;
   height: 40px;
@@ -90,7 +90,7 @@ img {
 
 .codigo-de-barras::after {
   content: "";
-  background-color: #353749;
+  background-color: #4d538d;
   display: block;
   width: 40px;
   height: 40px;
@@ -98,4 +98,34 @@ img {
   position: absolute;
   top: -22px;
   right: -85px;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contato a {
+  padding: 7px;
+}
+
+.insta:hover {
+  background-color: #e231aa;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.github:hover {
+  background-color: #333941;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  background-color: #0e76a8;
+  border-radius: 8px;
+  transition: 0.5s;
 }
