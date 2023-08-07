@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+body {
+  background-color: #353749;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 400px;
+  height: 100vh;
+  margin: 50px auto;
+}
+
+.ticket {
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.parte-1 {
+  display: flex;
+  position: relative;
+}
+
+.parte-1 span {
+  background-color: #9e00ff;
+  position: absolute;
+  padding: 1px 4px;
+  font-size: 0.75rem;
+  color: #fff;
+  top: 20px;
+  left: 20px;
+  border-radius: 4px;
+}
+
+.info {
+  color: #333;
+}
+
+.info h1 {
+  text-align: start;
+  margin: 10px 0 0 20px;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.info-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+
+.info-list span {
+  color: #666;
+  font-size: 9px;
+}
+
+.codigo-de-barras {
+  padding: 20px;
+  width: 290px;
+  position: relative;
+  border-top: 1px dashed #555454;
+  display: flex;
+  margin: 0 auto;
+}
+
+.codigo-de-barras::before {
+  content: "";
+  background-color: #353749;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -22px;
+  left: -85px;
+}
+
+.codigo-de-barras::after {
+  content: "";
+  background-color: #353749;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -22px;
+  right: -85px;
+}
